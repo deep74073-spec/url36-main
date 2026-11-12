@@ -28,3 +28,24 @@ footer p{width:100%;margin:0;color:var(--muted);font-size:13px}
 .page h1{font-size:40px;letter-spacing:-1px;margin:0 0 20px}
 .page p,.page li{color:var(--muted)}
 @media(max-width:600px){.site-header{padding:18px}.hero{padding:52px 20px}main{padding:20px 18px 50px}nav{gap:14px}.tool-card{padding:18px}footer{padding:25px 18px}.footer-links{gap:15px}}
+
+/* URL36 central website directory */
+.directory{padding:55px 0 25px}
+.section-heading{display:flex;align-items:end;justify-content:space-between;gap:15px}
+.section-heading h2{margin:4px 0 18px}
+.site-count{color:var(--muted);font-size:14px;padding-bottom:22px}
+.search-label{display:block;font-weight:700;font-size:14px;margin:12px 0 8px}
+.search-box{width:100%;max-width:520px;padding:14px 16px;border:1px solid var(--line);border-radius:11px;font:inherit;outline:none}
+.search-box:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(49,94,232,.1)}
+.category-section{padding-top:28px}
+.category-section h3{font-size:20px;margin:0 0 15px}
+.site-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.site-card{border:1px solid var(--line);border-radius:16px;padding:23px;background:#fff;display:flex;flex-direction:column;align-items:flex-start;min-height:225px}
+.site-card:hover{border-color:#cbd5f5;box-shadow:0 8px 24px rgba(23,32,51,.06);transform:translateY(-2px)}
+.site-icon{width:50px;height:50px;display:grid;place-items:center;background:#edf1ff;border-radius:13px;font-size:25px;margin-bottom:13px}
+.site-card h4{font-size:18px;margin:0 0 7px}
+.site-card p{color:var(--muted);font-size:14px;margin:0 0 18px}
+.site-card .text-link{margin-top:auto}
+.loading,.empty{color:var(--muted);padding:20px 0}
+@media(max-width:760px){.site-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.site-grid{grid-template-columns:1fr}.site-card{min-height:0}.section-heading{align-items:start;flex-direction:column;gap:0}.site-count{padding:0 0 10px}}

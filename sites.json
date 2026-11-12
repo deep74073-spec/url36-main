@@ -1,0 +1,25 @@
+{
+  "sites": [
+    {
+      "name": "Image Compressor",
+      "url": "https://compressor.url36.com/",
+      "category": "Online Tools",
+      "description": "Compress and resize images online with simple settings.",
+      "icon": "🖼️"
+    },
+    {
+      "name": "Translate",
+      "url": "https://translate.url36.com/",
+      "category": "Online Tools",
+      "description": "A dedicated website for translation tasks.",
+      "icon": "🌐"
+    },
+    {
+      "name": "BabyBlog",
+      "url": "https://babyblog.url36.com/",
+      "category": "Articles & Guides",
+      "description": "Helpful pregnancy, parenting and family articles.",
+      "icon": "📚"
+    }
+  ]
+}
