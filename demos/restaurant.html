@@ -3,39 +3,167 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Restaurant Website Demo — Sample Demo | URL36</title>
-<meta name="description" content="A sample restaurant website with menu and contact information.">
+
+<title>Restaurant Website Demo | URL36</title>
+<meta name="description" content="Explore a professional restaurant website demo with food gallery, sample menu, opening hours and WhatsApp enquiry by URL36.">
+<meta name="theme-color" content="#17251e">
+
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;color:#243247;background:#f4f7fb;line-height:1.6}
-header{background:#142b45;color:white;padding:20px}
-.wrap{max-width:950px;width:92%;margin:auto}
-h1{font-size:clamp(30px,6vw,48px);line-height:1.2}
-.hero{padding:65px 0;background:#e5effb}
-.card{background:white;padding:22px;margin:16px 0;border-radius:12px}
-.btn{display:inline-block;background:#087c50;color:white;padding:12px 20px;border-radius:7px;text-decoration:none;font-weight:bold}
-.note{background:#fff4d6;padding:12px;border-radius:8px;font-size:14px}
-footer{text-align:center;padding:25px;background:#142b45;color:white}
-.float{position:fixed;right:18px;bottom:18px;background:#16a765;color:white;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold;box-shadow:0 3px 12px #777}
+body{margin:0;font-family:Arial,sans-serif;color:#26342b;background:#faf9f5;line-height:1.65}
+.wrap{width:92%;max-width:1100px;margin:auto}
+header{background:#17251e;color:white;padding:19px 0}
+.nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:25px;font-weight:bold}
+.logo span{color:#e9bb72}
+.nav small{color:#d9e1da}
+.hero{
+ background:linear-gradient(90deg,rgba(12,24,17,.85),rgba(12,24,17,.35)),
+ url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&auto=format&fit=crop') center/cover;
+ color:white;padding:100px 0
+}
+.tag{display:inline-block;background:#f6e5c6;color:#61431d;padding:7px 13px;border-radius:30px;font-size:12px;font-weight:bold}
+h1{font-size:clamp(36px,7vw,62px);line-height:1.12;max-width:680px;margin:20px 0}
+.hero p{max-width:620px;font-size:17px;color:#f0f0e9}
+.btn{display:inline-block;background:#a96c32;color:white;padding:13px 20px;border-radius:7px;font-weight:bold;margin-top:12px}
+.btn:hover{background:#855124}
+.section{padding:55px 0}
+.section h2{text-align:center;font-size:32px;margin:0 0 8px}
+.sub{text-align:center;color:#747d73;margin:0 0 30px}
+.about{background:#fff;padding:30px;border-radius:15px;text-align:center;max-width:850px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px #18251c12}
+.card img{width:100%;height:210px;object-fit:cover;display:block}
+.card-body{padding:18px}
+.card h3{margin:0;font-size:20px}
+.card p{font-size:14px;color:#737c72}
+.price{font-weight:bold;color:#98612e;font-size:18px}
+.hours{background:#17251e;color:white;border-radius:15px;padding:30px;text-align:center}
+.hours p{color:#d8e0d9}
+.note{background:#fff1d7;color:#775322;padding:13px;border-radius:8px;font-size:13px;margin-top:25px}
+footer{background:#17251e;color:white;text-align:center;padding:28px}
+footer a{color:#e9bb72}
+.float{position:fixed;right:18px;bottom:18px;background:#16a765;color:white;padding:13px 19px;border-radius:30px;font-weight:bold;box-shadow:0 3px 12px #777;z-index:5}
+@media(max-width:750px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding:75px 0}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}.card img{height:230px}.section{padding:40px 0}}
 </style>
 </head>
+
 <body>
-<header><div class="wrap"><strong>Sample Business</strong> <span> | Sample website by URL36</span></div></header>
-<section class="hero"><div class="wrap">
-<p class="note">SAMPLE DEMO — NOT A REAL BUSINESS</p>
-<h1>Restaurant Website Demo</h1>
-<p>A sample restaurant website with menu and contact information.</p>
-<a class="btn" href="https://wa.me/919650321014?text=Hello%20URL36%2C%20I%20want%20a%20website%20like%20this%20demo." target="_blank" rel="noopener">Enquire on WhatsApp</a>
-</div></section>
+<header>
+ <div class="wrap nav">
+  <div class="logo">Garden Table <span>Café</span></div>
+  <small>Sample restaurant website by URL36</small>
+ </div>
+</header>
+
+<section class="hero">
+ <div class="wrap">
+  <span class="tag">SAMPLE RESTAURANT WEBSITE</span>
+  <h1>Good Food. Great Moments.</h1>
+  <p>A warm and welcoming restaurant website concept showcasing delicious food, a sample menu and easy customer enquiries.</p>
+  <a class="btn" href="#menu">Explore Our Menu</a>
+  <a class="btn" href="https://wa.me/919650321014?text=Hello%20URL36%2C%20I%20want%20a%20restaurant%20website." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+ </div>
+</section>
+
 <main class="wrap">
-<div class="card"><h2>Our Menu</h2><p>Breakfast · Lunch · Dinner · Drinks</p></div><div class="card"><h2>Popular Dishes</h2><p>Add food photos, dish descriptions and prices here.</p></div><div class="card"><h2>Visit Us</h2><p>Add restaurant address and opening hours here.</p></div>
-<div class="card">
-<h2>Want a website like this?</h2>
-<p>URL36 can discuss a website design based on your business requirements.</p>
-<a class="btn" href="https://wa.me/919650321014?text=Hello%20URL36%2C%20please%20tell%20me%20about%20website%20design." target="_blank" rel="noopener">Contact URL36</a>
-</div>
+
+<section class="section">
+ <div class="about">
+  <h2>Welcome to Garden Table Café</h2>
+  <p>This fictional café demonstrates how a restaurant can introduce its dining concept, display food photography and present its menu through a modern website.</p>
+ </div>
+</section>
+
+<section class="section" id="menu">
+ <h2>Our Sample Menu</h2>
+ <p class="sub">A selection of illustrative dishes and prices</p>
+
+ <div class="grid">
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700&auto=format&fit=crop" alt="Fresh salad bowl" loading="lazy">
+   <div class="card-body">
+    <h3>Fresh Salad Bowl</h3>
+    <p>Fresh vegetables and a delicious combination of flavours.</p>
+    <div class="price">₹149</div>
+   </div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&auto=format&fit=crop" alt="Freshly baked pizza" loading="lazy">
+   <div class="card-body">
+    <h3>Classic Pizza</h3>
+    <p>A sample classic pizza with a delicious topping.</p>
+    <div class="price">₹249</div>
+   </div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=700&auto=format&fit=crop" alt="Healthy food bowl" loading="lazy">
+   <div class="card-body">
+    <h3>Healthy Meal Bowl</h3>
+    <p>A colourful and balanced sample meal.</p>
+    <div class="price">₹199</div>
+   </div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&auto=format&fit=crop" alt="Burger" loading="lazy">
+   <div class="card-body">
+    <h3>Classic Burger</h3>
+    <p>A popular sample burger served with fresh ingredients.</p>
+    <div class="price">₹179</div>
+   </div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=700&auto=format&fit=crop" alt="Coffee" loading="lazy">
+   <div class="card-body">
+    <h3>Fresh Coffee</h3>
+    <p>A refreshing hot beverage for coffee lovers.</p>
+    <div class="price">₹99</div>
+   </div>
+  </article>
+
+  <article class="card">
+   <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700&auto=format&fit=crop" alt="Dessert" loading="lazy">
+   <div class="card-body">
+    <h3>Sweet Dessert</h3>
+    <p>A delicious sample dessert to finish your meal.</p>
+    <div class="price">₹129</div>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <div class="hours">
+  <h2>Opening Hours</h2>
+  <p>Monday – Sunday</p>
+  <h3>10:00 AM – 10:00 PM</h3>
+  <p>Sample timings — replace with actual restaurant hours.</p>
+ </div>
+</section>
+
+<section class="section">
+ <div class="about">
+  <h2>Want a Restaurant Website?</h2>
+  <p>URL36 can help create a responsive restaurant website with menu cards, food galleries, contact information and WhatsApp enquiry options.</p>
+  <a class="btn" href="https://wa.me/919650321014?text=Hello%20URL36%2C%20I%20need%20a%20professional%20restaurant%20website." target="_blank" rel="noopener">Discuss Your Website</a>
+ </div>
+ <div class="note">
+  SAMPLE DEMO — Garden Table Café is fictional. All dishes, prices and opening hours are illustrative examples, not actual restaurant offers.
+ </div>
+</section>
+
 </main>
-<footer>Sample design by URL36 · <a style="color:white" href="/">Visit URL36</a></footer>
+
+<footer>
+ <p>© 2026 Garden Table Café · Sample design by URL36</p>
+ <a href="/">Visit URL36</a>
+</footer>
+
 <a class="float" href="https://wa.me/919650321014?text=Hello%20URL36%2C%20I%20need%20a%20website." target="_blank" rel="noopener">WhatsApp</a>
 </body>
 </html>
