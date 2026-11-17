@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://url36.com/</loc>
@@ -43,5 +43,21 @@
   <url>
     <loc>https://url36.com/demos/catalogue.html</loc>
     <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://url36.com/guides/business-website-planning.html</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://url36.com/guides/domain-and-hosting.html</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://url36.com/guides/website-cost-in-india.html</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://url36.com/guides/small-business-seo.html</loc>
+    <lastmod>2026-11-17</lastmod>
   </url>
 </urlset>
