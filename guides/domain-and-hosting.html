@@ -39,16 +39,116 @@ footer p{font-size:14px}
 <main>
 <article>
 <h1>Domain Name and Web Hosting: A Beginner&#x27;s Guide</h1>
-<p>A website needs an address that people can visit and a place where its files are stored. These are commonly provided through a domain name and web hosting. Understanding the difference makes website setup easier.</p>
-<section><h2>1. What is a domain name?</h2><p>A domain name is the address people type into a browser, such as example.com. It is easier to remember than the numerical address used by internet systems.</p><p>Choose a name that is easy to spell, relevant to the organisation and not confusingly similar to another brand. Check availability and renewal pricing before registering it.</p></section><section><h2>2. What is web hosting?</h2><p>Web hosting is a service that stores website files and makes them available over the internet. Different hosting plans offer different levels of storage, performance, support and control.</p><p>A simple static website may work with static hosting, while a website that uses a database or server-side application may need a different hosting setup.</p></section><section><h2>3. Domain and hosting are different</h2><p>Registering a domain does not automatically create a website. Hosting does not automatically give you the exact domain name you want.</p><p>You can register a domain with one provider and host the website with another. The two services are connected through DNS settings.</p></section><section><h2>4. Understand DNS records</h2><p>DNS tells browsers where to find a domain&#x27;s services. Common records include A records, which point a name to an IPv4 address, and CNAME records, which point one name to another hostname.</p><p>Email services may require MX and other verification records. Change DNS carefully and keep a copy of existing records before editing them.</p></section><section><h2>5. Why HTTPS matters</h2><p>HTTPS encrypts the connection between a visitor&#x27;s browser and the website. It helps protect information sent through forms and displays a secure connection in modern browsers.</p><p>After connecting a domain, configure a valid SSL/TLS certificate and check that the website loads correctly over HTTPS.</p></section><section><h2>6. A practical setup checklist</h2><p>Register the domain, select suitable hosting, connect the DNS records, enable HTTPS and test the website using the final domain.</p><p>Check renewal dates, keep account recovery details safe and maintain backups of important website files.</p></section>
+
+<p>A website needs an address that people can visit and a place where its files or application are made available online. These are commonly provided through a domain name and web hosting. Although they work together, they are different services. Understanding the difference helps you choose a suitable setup and avoid common mistakes.</p>
+
+<section>
+<h2>1. What is a domain name?</h2>
+<p>A domain name is the readable address people enter in a browser, such as example.com. Internet systems use DNS to connect that name with the services that handle the website.</p>
+<p>Choose a name that is easy to spell, pronounce and remember. It should fit the organisation or purpose of the website and should not be confusingly similar to another brand. Before registering it, check availability, registration fees, renewal pricing and the provider&#x27;s renewal process.</p>
+<p>Domain registration is usually for a limited period and must be renewed to keep the registration active. Keep the account login and recovery email secure, and make sure you can access the account that controls the domain.</p>
+</section>
+
+<section>
+<h2>2. What is web hosting?</h2>
+<p>Web hosting makes website files or applications available over the internet. Depending on the type of website, the hosting environment may store HTML, images, databases and application code.</p>
+<p>Common hosting options include:</p>
+<ul>
+<li><strong>Shared hosting:</strong> Multiple websites use resources on the same server. It can be suitable for smaller websites, depending on the provider and plan.</li>
+<li><strong>VPS hosting:</strong> A virtual private server provides a more isolated environment and usually offers greater control, but it may require more technical management.</li>
+<li><strong>Cloud hosting:</strong> Website resources run on cloud infrastructure. Features, pricing and management options vary between providers.</li>
+<li><strong>Static hosting:</strong> Designed for files such as HTML, CSS, JavaScript and images. It can be a suitable option for websites that do not need a traditional server-side application.</li>
+</ul>
+<p>The right option depends on the website technology, expected traffic, storage needs, technical skills, support requirements and budget. A more expensive plan is not automatically necessary for every website.</p>
+</section>
+
+<section>
+<h2>3. How domain names and hosting work together</h2>
+<p>Registering a domain does not automatically create a website. Buying hosting does not guarantee that your preferred domain name is available. The domain and hosting can be purchased from the same company or from separate providers.</p>
+<p>When they are separate, DNS settings connect the domain to the relevant hosting service. The hosting provider normally supplies instructions about which records or nameservers need to be configured. Follow those instructions carefully rather than copying DNS values from an unrelated website.</p>
+</section>
+
+<section>
+<h2>4. Understand common DNS records</h2>
+<p>DNS records tell internet services how to handle a domain or subdomain. Some commonly used record types are:</p>
+<ul>
+<li><strong>A record:</strong> Points a hostname to an IPv4 address.</li>
+<li><strong>AAAA record:</strong> Points a hostname to an IPv6 address.</li>
+<li><strong>CNAME record:</strong> Points one hostname to another hostname.</li>
+<li><strong>MX record:</strong> Identifies the mail servers that receive email for a domain.</li>
+<li><strong>TXT record:</strong> Stores text information often used for domain verification and email authentication.</li>
+</ul>
+<p>For example, a hosting provider may ask you to point the www subdomain to a hostname using a CNAME record. The exact value depends on that provider and must come from its official setup instructions.</p>
+<p>DNS changes may take time to appear consistently because of caching and record settings. During this period, some visitors may see the updated destination while others still see an older result. Avoid repeatedly changing records just because the website does not update immediately.</p>
+<p>Be especially careful with email-related records. Changing or deleting MX and other mail records without understanding their purpose can interrupt business email. Keep a copy of existing DNS records before making changes.</p>
+</section>
+
+<section>
+<h2>5. Why HTTPS and SSL/TLS certificates matter</h2>
+<p>HTTPS uses encryption to protect the connection between a visitor&#x27;s browser and a website. It helps protect information sent through forms and is expected for modern public websites.</p>
+<p>To enable HTTPS, configure a valid SSL/TLS certificate through the hosting provider or another supported certificate service. After setup, check that the website loads over HTTPS and that important pages and resources do not produce browser security warnings.</p>
+<p>A certificate protects the connection, but it does not automatically make the whole website secure. Keep software updated, use strong account passwords, restrict access and maintain backups where applicable.</p>
+</section>
+
+<section>
+<h2>6. Practical example of a website setup</h2>
+<p>Imagine a small business registers a domain and chooses a hosting provider for its website. The provider gives it the DNS instructions needed to connect the domain. The business adds the required records at the domain provider, waits for the changes to become available, and then configures HTTPS.</p>
+<p>Before announcing the website, the business checks both the main domain and the www version, tests important pages, verifies contact forms and confirms that its email service still works. This is a general example; the actual records and steps depend on the domain and hosting providers being used.</p>
+</section>
+
+<section>
+<h2>7. Domain and hosting setup checklist</h2>
+<ul>
+<li>Check the domain name spelling and availability before registration.</li>
+<li>Compare the initial price with the renewal price and renewal period.</li>
+<li>Choose hosting that supports the website&#x27;s actual technology and requirements.</li>
+<li>Confirm how to access the domain and hosting accounts.</li>
+<li>Save the existing DNS records before making changes.</li>
+<li>Use the DNS instructions supplied by the hosting provider.</li>
+<li>Check that email-related DNS records remain correct.</li>
+<li>Configure HTTPS and test the website using the final domain.</li>
+<li>Keep backups and check renewal dates.</li>
+</ul>
+</section>
+
+<section>
+<h2>8. Common mistakes to avoid</h2>
+<p>Do not choose a hosting plan only because it advertises unlimited resources. Read the plan details, restrictions, renewal costs and support terms. Also avoid registering a domain using an account or email address that you cannot reliably access.</p>
+<p>Another common mistake is changing several DNS records without recording the original settings. Make one planned change at a time and verify the result. If the website or business email is important, ask the provider for help before changing records you do not understand.</p>
+</section>
+
 <h2>Frequently Asked Questions</h2>
-<section><h2>Can I buy a domain without hosting?</h2><p>Yes. You can register a domain separately and connect it to a hosting service later.</p></section><section><h2>Can my domain and hosting be with different companies?</h2><p>Yes. DNS records connect the domain to the hosting provider.</p></section><section><h2>Do I need HTTPS?</h2><p>For a public website, HTTPS is strongly recommended. It encrypts connections and is expected by modern browsers.</p></section>
+
+<section>
+<h3>Can I buy a domain without hosting?</h3>
+<p>Yes. You can register a domain separately and connect it to a website or hosting service later. The domain registration still needs to be renewed.</p>
+</section>
+
+<section>
+<h3>Can my domain and hosting be with different companies?</h3>
+<p>Yes. DNS settings connect the domain to the hosting service. Follow the hosting provider&#x27;s instructions and keep access to both accounts.</p>
+</section>
+
+<section>
+<h3>Do I need HTTPS for my website?</h3>
+<p>HTTPS is strongly recommended for public websites. It encrypts the connection between the visitor and the website. A valid certificate must be configured and renewed according to the certificate service&#x27;s requirements.</p>
+</section>
+
+<section>
+<h3>How long do DNS changes take?</h3>
+<p>The time varies with the DNS records, caching and provider settings. Some changes appear quickly, while others take longer to be visible everywhere. Check the provider&#x27;s guidance before making repeated changes.</p>
+</section>
+
+<section>
+<h3>Is the cheapest hosting plan always a good choice?</h3>
+<p>Not necessarily. Compare renewal costs, supported technologies, storage, performance limits, backups, support and the resources your website actually needs.</p>
+</section>
 </article>
 <div class="related">
 <h2>Explore more website guides</h2>
 <ul>
 <li><a href="business-website-planning.html">How to Plan a Business Website</a></li>
-<li><a href="domain-and-hosting.html">Domain Name and Web Hosting</a></li>
+
 <li><a href="website-cost-in-india.html">Website Development Cost in India</a></li>
 <li><a href="small-business-seo.html">Small Business SEO Basics</a></li>
 </ul>
