@@ -1,0 +1,43 @@
+# URL36
+
+> URL36 provides website design and development services, website demos, and practical guides for businesses and individuals.
+
+## Website Development Services
+
+URL36 helps businesses and individuals plan and build responsive websites.
+
+Services include:
+- Business websites
+- Portfolio and personal websites
+- Landing pages
+- Blogs and article websites
+- Product catalogue websites
+- Affiliate websites
+- Custom online tools
+- Website redesign and support
+
+## Website Demos
+
+Explore sample website designs:
+- [Business Website Demo](https://url36.com/demos/business.html)
+- [Restaurant Website Demo](https://url36.com/demos/restaurant.html)
+- [Personal Portfolio Demo](https://url36.com/demos/portfolio.html)
+- [Coaching Website Demo](https://url36.com/demos/coaching.html)
+- [Product Catalogue Demo](https://url36.com/demos/catalogue.html)
+
+## Helpful Website Guides
+
+- [How to Plan a Business Website](https://url36.com/guides/business-website-planning.html)
+- [Domain Name and Web Hosting Guide](https://url36.com/guides/domain-and-hosting.html)
+- [Website Development Cost in India](https://url36.com/guides/website-cost-in-india.html)
+- [Small Business SEO Guide](https://url36.com/guides/small-business-seo.html)
+
+## Important Pages
+
+- [Home](https://url36.com/)
+- [About](https://url36.com/about.html)
+- [Contact](https://url36.com/contact.html)
+- [Privacy Policy](https://url36.com/privacy-policy.html)
+- [Terms and Conditions](https://url36.com/terms.html)
+- [Disclaimer](https://url36.com/disclaimer.html)
+- [Sitemap](https://url36.com/sitemap.xml)
